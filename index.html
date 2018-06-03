@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>drum kit</title>
+    <link type="text/css"  rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h2>drum kit</h2>
+    <p>press <strong>c</strong> for clap,<br><strong>s</strong> for slap <br>and <strong>b</strong> for blap.</p>
+    <button class="sound-kit" data-sound-type="67">clap</button>
+    <button class="sound-kit" data-sound-type="83">slap</button>
+    <button class="sound-kit" data-sound-type="66">blap</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+ <audio id="clap" data-code="67" src="67.mp3" autostart="false" ></audio>
+     <audio id="slap" data-code="83" src="83.mp3" autostart="false" ></audio>
+     <audio id="blap" data-code="66" src="66.mp3" autostart="false" ></audio>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
